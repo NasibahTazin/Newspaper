@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Time - Newspaper</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            background-color: #f2f2f2;
+            padding: 10px;
+        }
+        header img {
+            max-width: 100%;
+            height: auto;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .quotation {
+            text-align: center;
+            font-style: italic;
+            margin: 15px 0;
+        }
+        .content {
+            padding: 20px;
+        }
+        .top-news, .additional-news {
+            display: flex;
+            margin-bottom: 20px;
+        }
+        .top-news img, .additional-news img {
+            max-width: 150px;
+            margin-right: 15px;
+        }
+        .video-section {
+            background-color: lightgrey;
+            padding: 20px;
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        form {
+            background-color: #f2f2f2;
+            padding: 15px;
+            border-radius: 5px;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        form input, form textarea, form button {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="https://tinyurl.com/3x5w99hh" alt="Real Time Logo">
+    <h1>Real Time</h1>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#world">World</a>
+    <a href="#sports">Sports</a>
+    <a href="#entertainment">Entertainment</a>
+    <a href="#technology">Technology</a>
+</nav>
+
+<div class="quotation">
+    “A good newspaper is a nation talking to itself.” — Arthur Miller
+</div>
+
+<div class="content">
+    <div class="top-news">
+        <img src="https://www.bssnews.net/assets/news_photos/2024/09/07/image-208186-1725705781.jpg" alt="Top News">
+        <div>
+            <h2>14 Pardoned Bangladeshis Likely to Return Home Today</h2>
+            <p>Details about the top news can go here.</p>
+        </div>
+    </div>
+
+    <div class="additional-news">
+        <img src="https://static.toiimg.com/thumb/imgsize-26536,msid-113883881,width-700,resizemode-4/113883881.jpg" alt="Additional News">
+        <div>
+            <h2>India Sweep Bangladesh Series to Consolidate Top Spot in WTC Standings</h2>
+            <p>Details about the additional news can go here.</p>
+        </div>
+    </div>
+</div>
+
+<div class="video-section">
+    <h2>Featured Video</h2>
+    <video controls width="80%">
+        <source src="video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+
+<table>
+    <tr>
+        <th>Headline</th>
+        <th>Category</th>
+    </tr>
+    <tr>
+        <td>14 Pardoned Bangladeshis Likely to Return Home Today</td>
+        <td>Top News</td>
+    </tr>
+    <tr>
+        <td>India Sweep Bangladesh Series to Consolidate Top Spot in WTC Standings</td>
+        <td>Sports</td>
+    </tr>
+</table>
+
+<div class="form-section">
+    <h2 style="text-align:center;">Submit Your News</h2>
+    <form>
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="news" rows="5" placeholder="Your News" required></textarea>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+</body>
+</html>
